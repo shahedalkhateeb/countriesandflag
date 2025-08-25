@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <EditText
+        android:id="@+id/editCountryName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Country Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editCapital"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Capital"
+        android:inputType="textPersonName"
+        android:layout_marginTop="8dp" />
+
+    <EditText
+        android:id="@+id/editDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Description"
+        android:inputType="textMultiLine"
+        android:layout_marginTop="8dp"
+        android:minLines="3" />
+</LinearLayout>
